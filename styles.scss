@@ -39,7 +39,7 @@ $color-low: #161820CC;
 
 @mixin header-nav-divider-container {
     height: 1px;
-    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
+    background: linear-gradient(to right, transparent, rgba(0.2, 0, 0, 0.2), transparent);
     margin: 0;
     border: none;
 }
@@ -166,7 +166,6 @@ $color-low: #161820CC;
     padding-top: 21px;
     flex-shrink: 0;
     position: relative;
-    margin-right: -20px ;
 
     .order-call {
         width: 172px;
@@ -177,18 +176,15 @@ $color-low: #161820CC;
         font-weight: 700;
         font-size: 11.1px;
         color: #FFFFFF;
-        transition: all 3s ease;
-        transform: translate3d(0, 0, 0);
+        transition: transform 0.3s ease;
+        transform: translate3d(-20px, 0, 0); 
         will-change: transform;
         backface-visibility: hidden;
         outline: none;
     } 
-    &:hover {
-        transform: scale(1.05) translate3d(0, 0, 0);
-    }
-    &:active {
-        transform: scale(0.98) translate3d(0, 0, 0);
-        transition-duration: 0.1s;
+    
+    &:hover .order-call {
+        transform: translate3d(-20px, 0, 0) scale(1.05);
     }
 }
 
@@ -209,3 +205,27 @@ $color-low: #161820CC;
     @include container-another;
 }
 
+.nav-main {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .lists {
+        list-style: none;
+        display: flex;
+        gap: 5px;
+        justify-content: space-between;
+        align-items: center;
+
+        li a {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            color: #191D2D;
+            transition: all 0.3s ease;
+        
+        &:hover {
+            color: #E15241;
+        }
+    }
+}
+}
