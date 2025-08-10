@@ -185,6 +185,58 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.nav-main .lists .list-item {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #191D2D;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+.nav-main .lists .pop {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 578px;
+  height: 483px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px;
+}
+.nav-main .lists .list-item:hover .pop {
+  display: block;
+}
+.nav-main .lists .block-th,
+.nav-main .lists .block-tg,
+.nav-main .lists .block-tl,
+.nav-main .lists .block-tn {
+  padding-left: 10px;
+  display: block;
+}
+.nav-main .lists .th-1 {
+  padding-top: 5px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #191D2D;
+}
+.nav-main .lists .tg-1,
+.nav-main .lists .tl-1,
+.nav-main .lists .tn-1 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #191D2D;
+}
+.nav-main .lists .th-1, .nav-main .lists .th-2, .nav-main .lists .th-3,
+.nav-main .lists .tg-2, .nav-main .lists .tg-3, .nav-main .lists .tg-4, .nav-main .lists .tg-5, .nav-main .lists .tg-6,
+.nav-main .lists .tl-2, .nav-main .lists .tl-3, .nav-main .lists .tl-4, .nav-main .lists .tl-5,
+.nav-main .lists .tn-2, .nav-main .lists .tn-3, .nav-main .lists .tn-4, .nav-main .lists .tn-5, .nav-main .lists .tn-6, .nav-main .lists .tn-7 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #191D2D;
+}
 .nav-main .lists li a {
   text-decoration: none;
   font-weight: 600;

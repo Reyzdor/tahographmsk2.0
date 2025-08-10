@@ -44,6 +44,18 @@ $color-low: #161820CC;
     border: none;
 }
 
+@mixin header-sample { 
+    font-weight: 700;
+    font-size: 16px;
+    color: #191D2D;
+}
+
+@mixin defaul-sample {
+    font-weight: 500;
+    font-size: 16px;
+    color: #191D2D;
+}
+
 /* code */
 
 .header-1 {
@@ -216,6 +228,59 @@ $color-low: #161820CC;
         justify-content: space-between;
         align-items: center;
 
+        .list-item {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            color: #191D2D;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;   
+        }
+
+        .pop {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 578px;
+            height: 483px;
+            background-color: white;
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        .list-item:hover .pop {
+            display: block;
+        }
+
+        .block-th,
+        .block-tg,
+        .block-tl,
+        .block-tn {
+            padding-left: 10px;
+            display: block
+        }
+
+        .th-1 {
+            padding-top: 5px;
+            margin-bottom: 15px;
+            @include header-sample;
+        }
+        .tg-1,
+        .tl-1,
+        .tn-1 {
+            @include header-sample;
+        }
+
+        .th-1, .th-2, .th-3,
+        .tg-2, .tg-3, .tg-4, .tg-5, .tg-6,
+        .tl-2, .tl-3, .tl-4, .tl-5, 
+        .tn-2, .tn-3, .tn-4, .tn-5, .tn-6, .tn-7 {
+            @include defaul-sample;
+        }
+
+
         li a {
             text-decoration: none;
             font-weight: 600;
@@ -229,3 +294,4 @@ $color-low: #161820CC;
     }
 }
 }
+
