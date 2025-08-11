@@ -201,8 +201,8 @@ body {
   left: 0;
   width: 578px;
   height: 483px;
-  background-color: white;
-  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.0196078431);
+  border-radius: 10px;
   padding: 15px;
 }
 .nav-main .lists .list-item:hover .pop {
@@ -246,52 +246,57 @@ body {
   font-weight: 700;
   font-size: 16px;
   color: #191D2D;
+  cursor: pointer;
+}
+.nav-main .lists .th-11:hover {
+  color: #E15241;
 }
 .nav-main .lists .tg-1 {
   font-weight: 700;
   font-size: 16px;
   color: #191D2D;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+.nav-main .lists .tg-1:hover {
+  color: #E15241;
 }
 .nav-main .lists .tl-1 {
   font-weight: 700;
   font-size: 16px;
   color: #191D2D;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+.nav-main .lists .tl-1:hover {
+  color: #E15241;
 }
 .nav-main .lists .tn-1 {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 16px;
   color: #191D2D;
+  cursor: pointer;
 }
-.nav-main .lists .th-2, .nav-main .lists .th-3 {
-  font-weight: 500;
-  font-size: 16px;
-  color: #191D2D;
-  display: block;
-  margin-bottom: 10px;
+.nav-main .lists .tn-1:hover {
+  color: #E15241;
 }
-.nav-main .lists .tg-2, .nav-main .lists .tg-3, .nav-main .lists .tg-4, .nav-main .lists .tg-5, .nav-main .lists .tg-6 {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  color: #191D2D;
-}
-.nav-main .lists .tl-2, .nav-main .lists .tl-3, .nav-main .lists .tl-4, .nav-main .lists .tl-5 {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  color: #191D2D;
-}
+.nav-main .lists .th-2, .nav-main .lists .th-3,
+.nav-main .lists .tg-2, .nav-main .lists .tg-3, .nav-main .lists .tg-4, .nav-main .lists .tg-5, .nav-main .lists .tg-6,
+.nav-main .lists .tl-2, .nav-main .lists .tl-3, .nav-main .lists .tl-4, .nav-main .lists .tl-5,
 .nav-main .lists .tn-2, .nav-main .lists .tn-3, .nav-main .lists .tn-4, .nav-main .lists .tn-5, .nav-main .lists .tn-6, .nav-main .lists .tn-7 {
   display: block;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   color: #191D2D;
+  cursor: pointer;
+}
+.nav-main .lists .th-2:hover, .nav-main .lists .th-3:hover,
+.nav-main .lists .tg-2:hover, .nav-main .lists .tg-3:hover, .nav-main .lists .tg-4:hover, .nav-main .lists .tg-5:hover, .nav-main .lists .tg-6:hover,
+.nav-main .lists .tl-2:hover, .nav-main .lists .tl-3:hover, .nav-main .lists .tl-4:hover, .nav-main .lists .tl-5:hover,
+.nav-main .lists .tn-2:hover, .nav-main .lists .tn-3:hover, .nav-main .lists .tn-4:hover, .nav-main .lists .tn-5:hover, .nav-main .lists .tn-6:hover, .nav-main .lists .tn-7:hover {
+  color: #E15241;
 }
 .nav-main .lists li a {
   text-decoration: none;

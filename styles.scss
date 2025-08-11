@@ -245,8 +245,8 @@ $color-low: #161820CC;
             left: 0;
             width: 578px;
             height: 483px;
-            background-color: white;
-            border: 1px solid black;
+            background-color: #00000005;
+            border-radius: 10px;
             padding: 15px;
         }
 
@@ -291,45 +291,57 @@ $color-low: #161820CC;
             margin-left: auto;
         }
 
-        .th-11 {
-            padding-top: 5px;
-            margin-bottom: 20px;
-            @include header-sample;
-        }
-        .tg-1 {
-            @include header-sample;
-            margin-bottom: 20px;
-        }
-        .tl-1 {
-            @include header-sample;
-            margin-bottom: 20px
-        }
-        .tn-1 {
-            margin-bottom: 20px;
-            @include header-sample;
-        }
+    .th-11 {
+    padding-top: 5px;
+    margin-bottom: 20px;
+    @include header-sample;
+    cursor: pointer;
 
-        .th-2, .th-3 {
-            @include defaul-sample;
-            display: block;
-            margin-bottom: 10px;
-        }
-        .tg-2, .tg-3, .tg-4, .tg-5, .tg-6 {
-            display: block;
-            margin-bottom: 10px;
-            @include defaul-sample;
-        }
-        .tl-2, .tl-3, .tl-4, .tl-5 {
-            display: block;
-            margin-bottom: 10px;
-            @include defaul-sample;
-        }
-        .tn-2, .tn-3, .tn-4, .tn-5, .tn-6, .tn-7 {
-            display: block;
-            margin-bottom: 10px;
-            @include defaul-sample;
-        }
+    &:hover {
+        color: #E15241;
+    }
+    }
+    .tg-1 {
+        @include header-sample;
+        margin-bottom: 20px;
+        cursor: pointer;
 
+        &:hover {
+            color: #E15241;
+        }
+    }
+    .tl-1 {
+        @include header-sample;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        &:hover {
+            color: #E15241;
+        }
+    }
+    .tn-1 {
+        margin-bottom: 20px;
+        @include header-sample;
+        cursor: pointer;
+
+        &:hover {
+            color: #E15241;
+        }
+    }
+
+    .th-2, .th-3,
+    .tg-2, .tg-3, .tg-4, .tg-5, .tg-6,
+    .tl-2, .tl-3, .tl-4, .tl-5,
+    .tn-2, .tn-3, .tn-4, .tn-5, .tn-6, .tn-7 {
+        display: block;
+        margin-bottom: 10px;
+        @include defaul-sample;
+        cursor: pointer;
+
+        &:hover {
+            color: #E15241;
+        }
+    }
 
         li a {
             text-decoration: none;
