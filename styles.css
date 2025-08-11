@@ -309,4 +309,66 @@ body {
   color: #E15241;
 }
 
+.hero {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.hero .hero-content-left {
+  width: 100%;
+  height: 737px;
+  background-color: #191D2D;
+}
+.hero .hero-content-left .contaier-buttons {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.hero .hero-content-left .contaier-buttons .btn1 {
+  width: 154px;
+  height: 50px;
+  background-color: #191D2D;
+  border: 1px solid #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.hero .hero-content-left .contaier-buttons .btn2 {
+  width: 168px;
+  height: 50px;
+  background-color: #191D2D;
+  border: 1px solid #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.hero .hero-content-left .contaier-buttons .btn3 {
+  width: 116px;
+  height: 50px;
+  background-color: #191D2D;
+  border: 1px solid #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.hero .hero-content-left .contaier-buttons .btn4 {
+  width: 121px;
+  height: 50px;
+  background-color: #191D2D;
+  border: 1px solid #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.hero .hero-content-left .role-1 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+.hero .hero-content-left .role-1 .detailsphone {
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=styles.css.map */

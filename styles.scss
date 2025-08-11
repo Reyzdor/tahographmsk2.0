@@ -356,4 +356,70 @@ $color-low: #161820CC;
     }
 }
 }
+.hero {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
 
+    .hero-content-left {
+        width: 100%;
+        height: 737px;
+        background-color: #191D2D;
+
+        .contaier-buttons {
+            max-width: 1440px;
+            margin: 0 auto;
+
+            .btn1 {
+                width: 154px;
+                height: 50px;
+                background-color: $color-font;
+                border: 1px solid #FFFFFF;
+                font-weight: 400;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+            .btn2 {
+                width: 168px;
+                height: 50px;
+                background-color: $color-font;
+                border: 1px solid #FFFFFF;
+                font-weight: 400;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+            .btn3 {
+                width: 116px;
+                height: 50px;
+                background-color: $color-font;
+                border: 1px solid #FFFFFF;
+                font-weight: 400;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+            .btn4 {
+                width: 121px;
+                height: 50px;
+                background-color: $color-font;
+                border: 1px solid #FFFFFF;
+                font-weight: 400;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+        }
+
+        .role-1 {
+            font-weight: 700;
+            font-size: 35px;
+            color: #FFFFFF;
+
+            .detailsphone {
+                font-weight: 300;
+                font-size: 18px;
+                color: #FFFFFF;
+            }
+        }
+
+    }
+}
