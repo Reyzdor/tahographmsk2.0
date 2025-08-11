@@ -255,28 +255,78 @@ $color-low: #161820CC;
         }
 
         .block-th,
-        .block-tg,
-        .block-tl,
-        .block-tn {
+        .block-tg {
             padding-left: 10px;
-            display: block
+            display: block;
+            flex-wrap: wrap;
         }
 
-        .th-1 {
+        .container-thtg {
+        flex: 1; 
+        display: flex;
+        flex-direction: column;
+        gap: 15px; 
+        }
+
+       .container-tltn {
+            flex: 1; 
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            margin-top: 50px;
+            padding-top: 35px;
+            gap: 15px; 
+        }
+
+        .block-tl {
+            order: -1;
+            margin-top: -380px; /* Поднимаем блок */
+            margin-left: auto;
+            padding-right: 30px;
+            z-index: 100;
+        }
+
+        .block-tn {
+            margin-top: 20px;
+            margin-left: auto;
+        }
+
+        .th-11 {
             padding-top: 5px;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             @include header-sample;
         }
-        .tg-1,
-        .tl-1,
+        .tg-1 {
+            @include header-sample;
+            margin-bottom: 20px;
+        }
+        .tl-1 {
+            @include header-sample;
+            margin-bottom: 20px
+        }
         .tn-1 {
+            margin-bottom: 20px;
             @include header-sample;
         }
 
-        .th-1, .th-2, .th-3,
-        .tg-2, .tg-3, .tg-4, .tg-5, .tg-6,
-        .tl-2, .tl-3, .tl-4, .tl-5, 
+        .th-2, .th-3 {
+            @include defaul-sample;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .tg-2, .tg-3, .tg-4, .tg-5, .tg-6 {
+            display: block;
+            margin-bottom: 10px;
+            @include defaul-sample;
+        }
+        .tl-2, .tl-3, .tl-4, .tl-5 {
+            display: block;
+            margin-bottom: 10px;
+            @include defaul-sample;
+        }
         .tn-2, .tn-3, .tn-4, .tn-5, .tn-6, .tn-7 {
+            display: block;
+            margin-bottom: 10px;
             @include defaul-sample;
         }
 

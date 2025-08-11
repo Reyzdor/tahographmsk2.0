@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
@@ -209,30 +210,86 @@ body {
   display: block;
 }
 .nav-main .lists .block-th,
-.nav-main .lists .block-tg,
-.nav-main .lists .block-tl,
-.nav-main .lists .block-tn {
+.nav-main .lists .block-tg {
   padding-left: 10px;
   display: block;
+  flex-wrap: wrap;
 }
-.nav-main .lists .th-1 {
+.nav-main .lists .container-thtg {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.nav-main .lists .container-tltn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 50px;
+  padding-top: 35px;
+  gap: 15px;
+}
+.nav-main .lists .block-tl {
+  order: -1;
+  margin-top: -380px; /* Поднимаем блок */
+  margin-left: auto;
+  padding-right: 30px;
+  z-index: 100;
+}
+.nav-main .lists .block-tn {
+  margin-top: 20px;
+  margin-left: auto;
+}
+.nav-main .lists .th-11 {
   padding-top: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 16px;
   color: #191D2D;
 }
-.nav-main .lists .tg-1,
-.nav-main .lists .tl-1,
+.nav-main .lists .tg-1 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #191D2D;
+  margin-bottom: 20px;
+}
+.nav-main .lists .tl-1 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #191D2D;
+  margin-bottom: 20px;
+}
 .nav-main .lists .tn-1 {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 16px;
   color: #191D2D;
 }
-.nav-main .lists .th-1, .nav-main .lists .th-2, .nav-main .lists .th-3,
-.nav-main .lists .tg-2, .nav-main .lists .tg-3, .nav-main .lists .tg-4, .nav-main .lists .tg-5, .nav-main .lists .tg-6,
-.nav-main .lists .tl-2, .nav-main .lists .tl-3, .nav-main .lists .tl-4, .nav-main .lists .tl-5,
+.nav-main .lists .th-2, .nav-main .lists .th-3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #191D2D;
+  display: block;
+  margin-bottom: 10px;
+}
+.nav-main .lists .tg-2, .nav-main .lists .tg-3, .nav-main .lists .tg-4, .nav-main .lists .tg-5, .nav-main .lists .tg-6 {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #191D2D;
+}
+.nav-main .lists .tl-2, .nav-main .lists .tl-3, .nav-main .lists .tl-4, .nav-main .lists .tl-5 {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #191D2D;
+}
 .nav-main .lists .tn-2, .nav-main .lists .tn-3, .nav-main .lists .tn-4, .nav-main .lists .tn-5, .nav-main .lists .tn-6, .nav-main .lists .tn-7 {
+  display: block;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   color: #191D2D;
