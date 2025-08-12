@@ -315,14 +315,11 @@ body {
   width: 100%;
   margin: 0 auto;
   padding-top: 20px;
-  height: 100vh;
 }
 .hero .hero-content-left {
   width: 100%;
   height: 737px;
   background-color: #191D2D;
-  justify-content: center;
-  flex-direction: column;
 }
 .hero .hero-content-left .container-buttons {
   max-width: 1440px;
@@ -408,6 +405,8 @@ body {
 
 .right-part {
   width: 50%;
+  padding-top: 100px;
+  padding-right: 100px;
   overflow: hidden;
 }
 .right-part .right-part img {
