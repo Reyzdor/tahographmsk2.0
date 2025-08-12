@@ -316,19 +316,30 @@ body {
   margin: 0 auto;
   padding-top: 20px;
 }
-.hero .hero-content-left {
+.hero .container-hero {
   width: 100%;
+  display: flex;
+}
+.hero .container-hero .container-image {
+  width: 50%;
+}
+.hero .container-hero .container-image .trucks1 {
+  height: 737px;
+  width: 50%;
+}
+.hero .container-hero .hero-content-left {
+  width: 50%;
   height: 737px;
   background-color: #191D2D;
 }
-.hero .hero-content-left .container-buttons {
+.hero .container-hero .container-buttons {
   max-width: 1440px;
   margin: 0 auto;
   padding-top: 40px;
   display: flex;
   gap: 11px;
 }
-.hero .hero-content-left .container-buttons .btn1 {
+.hero .container-hero .container-buttons .btn1 {
   width: 154px;
   height: 50px;
   background-color: #191D2D;
@@ -339,7 +350,7 @@ body {
   color: #FFFFFF;
   cursor: pointer;
 }
-.hero .hero-content-left .container-buttons .btn2 {
+.hero .container-hero .container-buttons .btn2 {
   width: 168px;
   height: 50px;
   background-color: #191D2D;
@@ -350,7 +361,7 @@ body {
   color: #FFFFFF;
   cursor: pointer;
 }
-.hero .hero-content-left .container-buttons .btn3 {
+.hero .container-hero .container-buttons .btn3 {
   width: 116px;
   height: 50px;
   background-color: #191D2D;
@@ -361,7 +372,7 @@ body {
   color: #FFFFFF;
   cursor: pointer;
 }
-.hero .hero-content-left .container-buttons .btn4 {
+.hero .container-hero .container-buttons .btn4 {
   width: 121px;
   height: 50px;
   background-color: #191D2D;
@@ -372,26 +383,26 @@ body {
   color: #FFFFFF;
   cursor: pointer;
 }
-.hero .hero-content-left .container-desc {
+.hero .container-hero .container-desc {
   max-width: 1440px;
   margin: 0 auto;
   padding-top: 70px;
 }
-.hero .hero-content-left .container-desc .role-1 {
+.hero .container-hero .container-desc .role-1 {
   font-weight: 700;
   font-size: 35px;
   color: #FFFFFF;
   margin-bottom: 30px;
 }
-.hero .hero-content-left .container-desc .detailsphone {
+.hero .container-hero .container-desc .detailsphone {
   font-weight: 300;
   font-size: 18px;
   color: #FFFFFF;
 }
-.hero .hero-content-left .container-desc .container-orangebtn {
+.hero .container-hero .container-desc .container-orangebtn {
   padding-top: 70px;
 }
-.hero .hero-content-left .container-desc .container-orangebtn .orangebtn {
+.hero .container-hero .container-desc .container-orangebtn .orangebtn {
   width: 279px;
   height: 69px;
   background-color: #E15241;
@@ -401,10 +412,6 @@ body {
   color: #FFFFFF;
   border-radius: 35px;
   cursor: pointer;
-}
-
-.right-part {
-  padding-top: -250px;
 }
 
 /*# sourceMappingURL=styles.css.map */
