@@ -404,15 +404,7 @@ body {
 }
 
 .right-part {
-  width: 50%;
-  padding-top: 100px;
-  padding-right: 100px;
-  overflow: hidden;
-}
-.right-part .right-part img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  padding-top: -250px;
 }
 
 /*# sourceMappingURL=styles.css.map */
