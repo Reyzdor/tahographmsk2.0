@@ -315,11 +315,14 @@ body {
   width: 100%;
   margin: 0 auto;
   padding-top: 20px;
+  height: 100vh;
 }
 .hero .hero-content-left {
   width: 100%;
   height: 737px;
   background-color: #191D2D;
+  justify-content: center;
+  flex-direction: column;
 }
 .hero .hero-content-left .container-buttons {
   max-width: 1440px;
@@ -375,7 +378,7 @@ body {
 .hero .hero-content-left .container-desc {
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 70px;
 }
 .hero .hero-content-left .container-desc .role-1 {
   font-weight: 700;
@@ -400,6 +403,17 @@ body {
   font-size: 18px;
   color: #FFFFFF;
   border-radius: 35px;
+  cursor: pointer;
+}
+
+.right-part {
+  width: 50%;
+  overflow: hidden;
+}
+.right-part .right-part img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=styles.css.map */
