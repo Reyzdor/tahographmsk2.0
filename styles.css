@@ -176,6 +176,7 @@ body {
 
 .nav-main {
   max-width: 1200px;
+  padding-top: 5px;
   margin: 0 auto;
 }
 .nav-main .lists {
@@ -201,7 +202,7 @@ body {
   left: 0;
   width: 578px;
   height: 483px;
-  background-color: rgba(0, 0, 0, 0.0196078431);
+  background-color: #ffffff;
   border-radius: 10px;
   padding: 15px;
 }
@@ -320,55 +321,85 @@ body {
   height: 737px;
   background-color: #191D2D;
 }
-.hero .hero-content-left .contaier-buttons {
+.hero .hero-content-left .container-buttons {
   max-width: 1440px;
   margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  gap: 11px;
 }
-.hero .hero-content-left .contaier-buttons .btn1 {
+.hero .hero-content-left .container-buttons .btn1 {
   width: 154px;
   height: 50px;
   background-color: #191D2D;
   border: 1px solid #FFFFFF;
+  border-radius: 30px;
   font-weight: 400;
   font-size: 16px;
   color: #FFFFFF;
+  cursor: pointer;
 }
-.hero .hero-content-left .contaier-buttons .btn2 {
+.hero .hero-content-left .container-buttons .btn2 {
   width: 168px;
   height: 50px;
   background-color: #191D2D;
   border: 1px solid #FFFFFF;
+  border-radius: 30px;
   font-weight: 400;
   font-size: 16px;
   color: #FFFFFF;
+  cursor: pointer;
 }
-.hero .hero-content-left .contaier-buttons .btn3 {
+.hero .hero-content-left .container-buttons .btn3 {
   width: 116px;
   height: 50px;
   background-color: #191D2D;
   border: 1px solid #FFFFFF;
+  border-radius: 30px;
   font-weight: 400;
   font-size: 16px;
   color: #FFFFFF;
+  cursor: pointer;
 }
-.hero .hero-content-left .contaier-buttons .btn4 {
+.hero .hero-content-left .container-buttons .btn4 {
   width: 121px;
   height: 50px;
   background-color: #191D2D;
   border: 1px solid #FFFFFF;
+  border-radius: 30px;
   font-weight: 400;
   font-size: 16px;
   color: #FFFFFF;
+  cursor: pointer;
 }
-.hero .hero-content-left .role-1 {
+.hero .hero-content-left .container-desc {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.hero .hero-content-left .container-desc .role-1 {
   font-weight: 700;
   font-size: 35px;
   color: #FFFFFF;
+  margin-bottom: 30px;
 }
-.hero .hero-content-left .role-1 .detailsphone {
+.hero .hero-content-left .container-desc .detailsphone {
   font-weight: 300;
   font-size: 18px;
   color: #FFFFFF;
+}
+.hero .hero-content-left .container-desc .container-orangebtn {
+  padding-top: 70px;
+}
+.hero .hero-content-left .container-desc .container-orangebtn .orangebtn {
+  width: 279px;
+  height: 69px;
+  background-color: #E15241;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  border-radius: 35px;
 }
 
 /*# sourceMappingURL=styles.css.map */

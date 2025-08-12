@@ -219,6 +219,7 @@ $color-low: #161820CC;
 
 .nav-main {
     max-width: 1200px;
+    padding-top: 5px;
     margin: 0 auto;
 
     .lists {
@@ -245,7 +246,7 @@ $color-low: #161820CC;
             left: 0;
             width: 578px;
             height: 483px;
-            background-color: #00000005;
+            background-color: #ffffff;
             border-radius: 10px;
             padding: 15px;
         }
@@ -367,59 +368,97 @@ $color-low: #161820CC;
         height: 737px;
         background-color: #191D2D;
 
-        .contaier-buttons {
+        .container-buttons {
             max-width: 1440px;
             margin: 0 auto;
+            padding-top: 40px;
+            display: flex;
+            gap: 11px;
 
             .btn1 {
                 width: 154px;
                 height: 50px;
                 background-color: $color-font;
                 border: 1px solid #FFFFFF;
+                border-radius: 30px;
                 font-weight: 400;
                 font-size: 16px;
                 color: #FFFFFF;
+                cursor: pointer;
             }
             .btn2 {
                 width: 168px;
                 height: 50px;
                 background-color: $color-font;
                 border: 1px solid #FFFFFF;
+                border-radius: 30px;
                 font-weight: 400;
                 font-size: 16px;
                 color: #FFFFFF;
+                cursor: pointer;
             }
+
             .btn3 {
                 width: 116px;
                 height: 50px;
                 background-color: $color-font;
                 border: 1px solid #FFFFFF;
+                border-radius: 30px;
                 font-weight: 400;
                 font-size: 16px;
                 color: #FFFFFF;
+                cursor: pointer;
             }
             .btn4 {
                 width: 121px;
                 height: 50px;
                 background-color: $color-font;
                 border: 1px solid #FFFFFF;
+                border-radius: 30px;
                 font-weight: 400;
                 font-size: 16px;
                 color: #FFFFFF;
+                cursor: pointer;
             }
         }
 
-        .role-1 {
-            font-weight: 700;
-            font-size: 35px;
-            color: #FFFFFF;
+        .container-desc {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding-top: 80px;
 
-            .detailsphone {
-                font-weight: 300;
-                font-size: 18px;
+                .role-1 {
+                font-weight: 700;
+                font-size: 35px;
                 color: #FFFFFF;
+                margin-bottom: 30px;
+
+                }
+
+                .detailsphone {
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                }
+
+                .container-orangebtn {
+                    padding-top: 70px;
+
+                    .orangebtn {
+                        width: 279px;
+                        height: 69px;
+                        background-color: #E15241;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #FFFFFF;
+                        border-radius: 35px;
+                    }
+                }
+
             }
         }
+
+        
 
     }
-}
