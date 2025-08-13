@@ -151,6 +151,7 @@ body {
   will-change: transform;
   backface-visibility: hidden;
   outline: none;
+  cursor: pointer;
 }
 .block-button:hover .order-call {
   transform: translate3d(-20px, 0, 0) scale(1.05);
@@ -325,6 +326,7 @@ body {
   color: white;
   padding: 40px 150px;
   box-sizing: border-box;
+  position: relative;
   z-index: 2;
   margin-right: -70px;
   margin: 0 auto;
@@ -397,6 +399,7 @@ body {
 .left-block .container-orng {
   display: block;
   padding-top: 50px;
+  justify-content: center;
 }
 .left-block .container-orng .orngbutton {
   width: 279px;
@@ -416,6 +419,86 @@ body {
   background-size: cover;
   background-position: -250px center;
   z-index: 1;
+}
+
+.right-block {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.right-block .slider {
+  width: 100%;
+  height: 100%;
+}
+.right-block .slider .slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.right-block .slider .slides .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.right-block .slider .slides .slide.active {
+  opacity: 1;
+}
+.right-block .slider .slides .slide.slide1 {
+  background-image: url("/sass-layout/image/trucks1.png");
+}
+.right-block .slider .slides .slide.slide2 {
+  background-image: url("/sass-layout/image/trucks2.png");
+}
+.right-block .slider .slides .slide.slide3 {
+  background-image: url("/sass-layout/image/trucks3.png");
+}
+
+.slider-controls {
+  position: relative;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  padding-right: 500px;
+}
+.slider-controls input[type=radio] {
+  display: none;
+}
+.slider-controls input[type=radio]:checked + label {
+  background: #E15241;
+}
+
+.labels {
+  display: flex;
+  gap: 25px;
+  margin-top: 10px;
+}
+.labels label {
+  display: block;
+  width: 21.26px;
+  height: 21.26px;
+  border-radius: 50%;
+  background: #191D2D;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.labels label:hover {
+  background: rgba(255, 255, 255, 0.3490196078);
 }
 
 /*# sourceMappingURL=styles.css.map */

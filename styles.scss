@@ -193,6 +193,7 @@ $color-low: #161820CC;
         will-change: transform;
         backface-visibility: hidden;
         outline: none;
+        cursor: pointer;
     } 
     
     &:hover .order-call {
@@ -374,6 +375,7 @@ $color-low: #161820CC;
     color: white;
     padding: 40px 150px;
     box-sizing: border-box;
+    position: relative;
     z-index: 2;
     margin-right: -70px;
     margin: 0 auto;
@@ -453,6 +455,8 @@ $color-low: #161820CC;
     .container-orng {
         display: block;
         padding-top: 50px;
+        justify-content: center;
+
         .orngbutton {
             width: 279px;
             height: 69px;
@@ -476,3 +480,93 @@ $color-low: #161820CC;
     background-position: -250px center;
     z-index: 1;
 }
+.right-block {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    
+    .slider {
+        width: 100%;
+        height: 100%;
+        
+        .slides {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            
+            .slide {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                opacity: 0;
+                transition: opacity 0.5s ease;
+                
+                &.active {
+                    opacity: 1;
+                }
+                
+                &.slide1 {
+                    background-image: url("/sass-layout/image/trucks1.png");
+                }
+                
+                &.slide2 {
+                    background-image: url("/sass-layout/image/trucks2.png"); 
+                }
+                
+                &.slide3 {
+                    background-image: url("/sass-layout/image/trucks3.png"); 
+                }
+            }
+        }
+    }
+}
+
+.slider-controls {
+    position: relative;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    padding-right: 500px;
+    
+    input[type="radio"] {
+        display: none;
+        
+        &:checked + label {
+            background: #E15241;
+        }
+    }
+    
+    }
+    .labels {
+        display: flex;
+        gap: 25px;
+        margin-top: 10px;
+        
+        label {
+            display: block;
+            width: 21.26px;
+            height: 21.26px;
+            border-radius: 50%;
+            background: $color-font;
+            border: 1px solid white;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            
+            &:hover {
+                background: #FFFFFF59;
+            }
+        }
+    }
