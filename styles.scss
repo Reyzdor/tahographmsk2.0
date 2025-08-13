@@ -474,7 +474,7 @@ $color-low: #161820CC;
 
 .right-block {
     flex: 1;
-    background-image: url("/sass-layout/image/trucks1.png");
+    background-image: url("image/trucks1.png");
     background-size: cover;
     background-position: -250px center;
     z-index: 1;
@@ -510,7 +510,7 @@ $color-low: #161820CC;
                 }
                 
                 &.slide1 {
-                    background-image: url("/sass-layout/image/trucks1.png");
+                    background-image: url("/image/trucks1.png");
                     flex: 1;
                     background-size: cover;
                     background-position: -250px center;
@@ -518,7 +518,7 @@ $color-low: #161820CC;
                 }
                 
                 &.slide2 {
-                    background-image: url("/sass-layout/image/trucks2.png"); 
+                    background-image: url("image/trucks2.png"); 
                     flex: 1;
                     background-size: cover;
                     background-position: -250px center;
@@ -526,7 +526,7 @@ $color-low: #161820CC;
                 }
                 
                 &.slide3 {
-                    background-image: url("/sass-layout/image/trucks3.png"); 
+                    background-image: url("/image/trucks3.png"); 
                     flex: 1;
                     background-size: cover;
                     background-position: -250px center;

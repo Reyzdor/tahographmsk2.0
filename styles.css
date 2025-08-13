@@ -414,7 +414,7 @@ body {
 
 .right-block {
   flex: 1;
-  background-image: url("/sass-layout/image/trucks1.png");
+  background-image: url("image/trucks1.png");
   background-size: cover;
   background-position: -250px center;
   z-index: 1;
@@ -450,21 +450,21 @@ body {
   opacity: 1;
 }
 .right-block .slider .slides .slide.slide1 {
-  background-image: url("/sass-layout/image/trucks1.png");
+  background-image: url("/image/trucks1.png");
   flex: 1;
   background-size: cover;
   background-position: -250px center;
   z-index: 1;
 }
 .right-block .slider .slides .slide.slide2 {
-  background-image: url("/sass-layout/image/trucks2.png");
+  background-image: url("image/trucks2.png");
   flex: 1;
   background-size: cover;
   background-position: -250px center;
   z-index: 1;
 }
 .right-block .slider .slides .slide.slide3 {
-  background-image: url("/sass-layout/image/trucks3.png");
+  background-image: url("/image/trucks3.png");
   flex: 1;
   background-size: cover;
   background-position: -250px center;

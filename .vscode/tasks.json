@@ -4,9 +4,10 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
+            "label": "Compile SCSS to CSS",
             "type": "shell",
-            "command": "echo Hello"
+            "command": "sass styles.scss styles.css",
+            "group": "build"
         }
     ]
 }
