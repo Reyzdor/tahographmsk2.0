@@ -16,7 +16,6 @@ body {
     background-color: #FFFFFF;
     min-width: 0;
     white-space: nowrap;
-    overflow: hidden;
 }
 
 /* variable */
@@ -512,14 +511,26 @@ $color-low: #161820CC;
                 
                 &.slide1 {
                     background-image: url("/sass-layout/image/trucks1.png");
+                    flex: 1;
+                    background-size: cover;
+                    background-position: -250px center;
+                    z-index: 1;
                 }
                 
                 &.slide2 {
                     background-image: url("/sass-layout/image/trucks2.png"); 
+                    flex: 1;
+                    background-size: cover;
+                    background-position: -250px center;
+                    z-index: 1;
                 }
                 
                 &.slide3 {
                     background-image: url("/sass-layout/image/trucks3.png"); 
+                    flex: 1;
+                    background-size: cover;
+                    background-position: -250px center;
+                    z-index: 1;
                 }
             }
         }
@@ -570,3 +581,4 @@ $color-low: #161820CC;
             }
         }
     }
+

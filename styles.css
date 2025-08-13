@@ -14,7 +14,6 @@ body {
   background-color: #FFFFFF;
   min-width: 0;
   white-space: nowrap;
-  overflow: hidden;
 }
 
 /* variable */
@@ -452,12 +451,24 @@ body {
 }
 .right-block .slider .slides .slide.slide1 {
   background-image: url("/sass-layout/image/trucks1.png");
+  flex: 1;
+  background-size: cover;
+  background-position: -250px center;
+  z-index: 1;
 }
 .right-block .slider .slides .slide.slide2 {
   background-image: url("/sass-layout/image/trucks2.png");
+  flex: 1;
+  background-size: cover;
+  background-position: -250px center;
+  z-index: 1;
 }
 .right-block .slider .slides .slide.slide3 {
   background-image: url("/sass-layout/image/trucks3.png");
+  flex: 1;
+  background-size: cover;
+  background-position: -250px center;
+  z-index: 1;
 }
 
 .slider-controls {
