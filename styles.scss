@@ -249,6 +249,8 @@ $color-low: #161820CC;
             background-color: #ffffff;
             border-radius: 10px;
             padding: 15px;
+            flex: 1;
+            z-index: 100;
         }
 
         .list-item:hover .pop {
@@ -281,7 +283,7 @@ $color-low: #161820CC;
 
         .block-tl {
             order: -1;
-            margin-top: -380px; 
+            margin-top: -390px; 
             margin-left: auto;
             padding-right: 30px;
             z-index: 100;
@@ -357,123 +359,28 @@ $color-low: #161820CC;
     }
 }
 }
-.hero {
+
+.wrapper {
     display: flex;
-    width: 100%;
-    margin: 0 auto;
     padding-top: 20px;
+    width: 100%;
+    height: 737px;
+}
 
-    .container-hero {
-        width: 100%;
-        display: flex;
-        
+.left-block {
+    flex: 0 0 50%;
+    background-color: #191D2D;
+    color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    z-index: 2;
+    margin-right: -70px;
+}
 
-        .container-image {
-            width:  50%;
-
-
-            .trucks1 {
-                height: 737px;
-                width: 50%;
-            }
-        }
-
-        .hero-content-left {
-            width: 50%;
-            height: 737px;
-            background-color: #191D2D;
-        }
-
-        .container-buttons {
-            max-width: 1440px;
-            margin: 0 auto;
-            padding-top: 40px;
-            display: flex;
-            gap: 11px;
-
-            .btn1 {
-                width: 154px;
-                height: 50px;
-                background-color: $color-font;
-                border: 1px solid #FFFFFF;
-                border-radius: 30px;
-                font-weight: 400;
-                font-size: 16px;
-                color: #FFFFFF;
-                cursor: pointer;
-            }
-            .btn2 {
-                width: 168px;
-                height: 50px;
-                background-color: $color-font;
-                border: 1px solid #FFFFFF;
-                border-radius: 30px;
-                font-weight: 400;
-                font-size: 16px;
-                color: #FFFFFF;
-                cursor: pointer;
-            }
-
-            .btn3 {
-                width: 116px;
-                height: 50px;
-                background-color: $color-font;
-                border: 1px solid #FFFFFF;
-                border-radius: 30px;
-                font-weight: 400;
-                font-size: 16px;
-                color: #FFFFFF;
-                cursor: pointer;
-            }
-            .btn4 {
-                width: 121px;
-                height: 50px;
-                background-color: $color-font;
-                border: 1px solid #FFFFFF;
-                border-radius: 30px;
-                font-weight: 400;
-                font-size: 16px;
-                color: #FFFFFF;
-                cursor: pointer;
-            }
-        }
-
-        .container-desc {
-            max-width: 1440px;
-            margin: 0 auto;
-            padding-top: 70px;
-
-                .role-1 {
-                font-weight: 700;
-                font-size: 35px;
-                color: #FFFFFF;
-                margin-bottom: 30px;
-
-                }
-
-                .detailsphone {
-                    font-weight: 300;
-                    font-size: 18px;
-                    color: #FFFFFF;
-                }
-
-                .container-orangebtn {
-                    padding-top: 70px;
-
-                    .orangebtn {
-                        width: 279px;
-                        height: 69px;
-                        background-color: #E15241;
-                        font-family: 'Montserrat', sans-serif;
-                        font-weight: 700;
-                        font-size: 18px;
-                        color: #FFFFFF;
-                        border-radius: 35px;
-                        cursor: pointer;
-                      }
-                }
-
-            }
-        }
-    }
-
+.right-block {
+    flex: 1;
+    background-image: url("/sass-layout/image/trucks2.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
