@@ -835,7 +835,7 @@ $color-low: #161820CC;
                 border-radius: 5px;
 
                 .container-card3__img {
-                    padding: 40px;
+                    padding: 43px;
 
                     .card3__img {
                         width: 269px;
@@ -883,7 +883,7 @@ $color-low: #161820CC;
                 border-radius: 5px;
 
                 .container-card4__img {
-                    padding: 52px;
+                    padding: 53px;
 
                     .card4__img {
                         width: 220px;
@@ -925,26 +925,27 @@ $color-low: #161820CC;
                 cursor: pointer;
             }
 
+            
             .three-page__card5 {
                 width: 318px;
                 height: 401px;
                 background-color: #FFFFFF;
                 border-radius: 5px;
-
+                
                 .container-card5__img {
-                    padding: 53px;
-
+                    padding:53px;
+                    
                     .card5__img {
                         width: 263px;
                         height: 96px;
                     }
                 }
-
+                
                 .container-card5__spantitle {
                     display: block;
                     padding: 0 30px;
                     margin-top: 20px;
-
+                    
                     .card5__price {
                         display: block;
                         font-weight: 600;
@@ -952,7 +953,7 @@ $color-low: #161820CC;
                         color: #53A6AA;
                         margin-bottom: 10px;
                     }
-
+                    
                     .card5__title {
                         display: block;
                         font-weight: 700;
@@ -960,23 +961,21 @@ $color-low: #161820CC;
                         color: #161820;
                     }
                 }
-
-            .stars {
-                padding: 55px 30px;
-            }
-
-            .basket {
-                position: relative;
-                top: -50px;
-                left: 50px;
-                cursor: pointer;
-            }    
+                
+                .stars {
+                    padding: 55px 30px;
+                }
+                
+                .basket {
+                    position: relative;
+                    top: -50px;
+                    left: 50px;
+                    cursor: pointer;
+                }    
                 
             }
-
         }
-        
-        
+    
     }
     .container-title-h1-pagefour {
         padding-top: 50px;
