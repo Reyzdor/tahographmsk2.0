@@ -608,10 +608,18 @@ body {
   background-color: #191D2D;
   width: auto;
   height: 1352px;
+  overflow: hidden;
 }
 .three-page .container-three-page {
   max-width: 1440px;
   margin: 0 auto;
+}
+.three-page .container-three-page .cards-scroll-container {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 50px;
 }
 .three-page .container-three-page .container-title-three-page {
   padding-top: 100px;
@@ -627,8 +635,8 @@ body {
 }
 .three-page .container-three-page .container-three-page-cards {
   max-width: 1440px;
-  gap: 5px;
-  display: flex;
+  gap: 40px;
+  display: inline-flex;
   justify-content: space-between;
 }
 .three-page .container-three-page .container-three-page-cards .three-page__card1 {
@@ -759,7 +767,7 @@ body {
   border-radius: 5px;
 }
 .three-page .container-three-page .container-three-page-cards .three-page__card4 .container-card4__img {
-  padding: 40px;
+  padding: 52px;
 }
 .three-page .container-three-page .container-three-page-cards .three-page__card4 .container-card4__img .card4__img {
   width: 220px;
@@ -787,6 +795,187 @@ body {
   padding: 55px 30px;
 }
 .three-page .container-three-page .container-three-page-cards .basket {
+  position: relative;
+  top: -50px;
+  left: 50px;
+  cursor: pointer;
+}
+.three-page .container-three-page .container-three-page-cards .three-page__card5 {
+  width: 318px;
+  height: 401px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+.three-page .container-three-page .container-three-page-cards .three-page__card5 .container-card5__img {
+  padding: 53px;
+}
+.three-page .container-three-page .container-three-page-cards .three-page__card5 .container-card5__img .card5__img {
+  width: 263px;
+  height: 96px;
+}
+.three-page .container-three-page .container-three-page-cards .three-page__card5 .container-card5__spantitle {
+  display: block;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+.three-page .container-three-page .container-three-page-cards .three-page__card5 .container-card5__spantitle .card5__price {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #53A6AA;
+  margin-bottom: 10px;
+}
+.three-page .container-three-page .container-three-page-cards .three-page__card5 .container-card5__spantitle .card5__title {
+  display: block;
+  font-weight: 700;
+  font-size: 21px;
+  color: #161820;
+}
+.three-page .container-three-page .container-three-page-cards .three-page__card5 .stars {
+  padding: 55px 30px;
+}
+.three-page .container-three-page .container-three-page-cards .three-page__card5 .basket {
+  position: relative;
+  top: -50px;
+  left: 50px;
+  cursor: pointer;
+}
+.three-page .container-title-h1-pagefour {
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 100px;
+}
+.three-page .container-title-h1-pagefour .pagefour-h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #53A6AA;
+}
+.three-page .container-pagefour-cards {
+  max-width: 1440px;
+  margin: 0 auto;
+  gap: 40px;
+  display: flex;
+}
+.three-page .container-pagefour-cards .three-page__card7 {
+  width: 318px;
+  height: 401px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  display: block;
+}
+.three-page .container-pagefour-cards .three-page__card7 .container-card7__img {
+  padding: 30px;
+}
+.three-page .container-pagefour-cards .three-page__card7 .container-card7__img .card7__img {
+  width: 232px;
+  height: 78px;
+}
+.three-page .container-pagefour-cards .three-page__card7 .container-card7__spantitle {
+  display: block;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+.three-page .container-pagefour-cards .three-page__card7 .container-card7__spantitle .card7__price {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #53A6AA;
+  margin-bottom: 10px;
+}
+.three-page .container-pagefour-cards .three-page__card7 .container-card7__spantitle .card7__title {
+  display: block;
+  font-weight: 700;
+  font-size: 21px;
+  color: #161820;
+}
+.three-page .container-pagefour-cards .three-page__card7 .stars {
+  padding: 55px 30px;
+}
+.three-page .container-pagefour-cards .three-page__card7 .basket {
+  position: relative;
+  top: -50px;
+  left: 50px;
+  cursor: pointer;
+}
+.three-page .container-pagefour-cards .three-page__card8 {
+  width: 318px;
+  height: 401px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  display: block;
+}
+.three-page .container-pagefour-cards .three-page__card8 .container-card8__img {
+  padding: 30px;
+}
+.three-page .container-pagefour-cards .three-page__card8 .container-card8__img .card8__img {
+  width: 230px;
+  height: 71px;
+}
+.three-page .container-pagefour-cards .three-page__card8 .container-card8__spantitle {
+  display: block;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+.three-page .container-pagefour-cards .three-page__card8 .container-card8__spantitle .card8__price {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #53A6AA;
+  margin-bottom: 10px;
+}
+.three-page .container-pagefour-cards .three-page__card8 .container-card8__spantitle .car8__title {
+  display: block;
+  font-weight: 700;
+  font-size: 21px;
+  color: #161820;
+}
+.three-page .container-pagefour-cards .three-page__card8 .stars {
+  padding: 55px 30px;
+}
+.three-page .container-pagefour-cards .three-page__card8 .basket {
+  position: relative;
+  top: -50px;
+  left: 50px;
+  cursor: pointer;
+}
+.three-page .container-pagefour-cards .three-page__card9 {
+  width: 318px;
+  height: 401px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  display: block;
+}
+.three-page .container-pagefour-cards .three-page__card9 .container-card9__img {
+  padding: 30px;
+}
+.three-page .container-pagefour-cards .three-page__card9 .container-card9__img .card9__img {
+  width: 279px;
+  height: 98px;
+}
+.three-page .container-pagefour-cards .three-page__card9 .container-card9__spantitle {
+  display: block;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+.three-page .container-pagefour-cards .three-page__card9 .container-card9__spantitle .card9__price {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #53A6AA;
+  margin-bottom: 10px;
+}
+.three-page .container-pagefour-cards .three-page__card9 .container-card9__spantitle .card9__title {
+  display: block;
+  font-weight: 700;
+  font-size: 21px;
+  color: #161820;
+}
+.three-page .container-pagefour-cards .three-page__card9 .stars {
+  padding: 55px 30px;
+}
+.three-page .container-pagefour-cards .three-page__card9 .basket {
   position: relative;
   top: -50px;
   left: 50px;

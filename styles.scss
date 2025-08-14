@@ -696,10 +696,19 @@ $color-low: #161820CC;
     background-color: #191D2D;
     width: auto;
     height: 1352px;
+    overflow: hidden;
 
     .container-three-page {
         max-width: 1440px;
         margin: 0 auto;
+
+        .cards-scroll-container {
+            width: 100%;
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+            padding-bottom: 50px;
+        }
         
         .container-title-three-page {
             padding-top: 100px;
@@ -717,8 +726,8 @@ $color-low: #161820CC;
 
         .container-three-page-cards {
             max-width: 1440px;
-            gap: 5px;
-            display: flex;
+            gap: 40px;
+            display: inline-flex;
             justify-content: space-between;
 
             .three-page__card1 {
@@ -874,7 +883,7 @@ $color-low: #161820CC;
                 border-radius: 5px;
 
                 .container-card4__img {
-                    padding: 40px;
+                    padding: 52px;
 
                     .card4__img {
                         width: 220px;
@@ -916,9 +925,228 @@ $color-low: #161820CC;
                 cursor: pointer;
             }
 
+            .three-page__card5 {
+                width: 318px;
+                height: 401px;
+                background-color: #FFFFFF;
+                border-radius: 5px;
+
+                .container-card5__img {
+                    padding: 53px;
+
+                    .card5__img {
+                        width: 263px;
+                        height: 96px;
+                    }
+                }
+
+                .container-card5__spantitle {
+                    display: block;
+                    padding: 0 30px;
+                    margin-top: 20px;
+
+                    .card5__price {
+                        display: block;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #53A6AA;
+                        margin-bottom: 10px;
+                    }
+
+                    .card5__title {
+                        display: block;
+                        font-weight: 700;
+                        font-size: 21px;
+                        color: #161820;
+                    }
+                }
+
+            .stars {
+                padding: 55px 30px;
+            }
+
+            .basket {
+                position: relative;
+                top: -50px;
+                left: 50px;
+                cursor: pointer;
+            }    
+                
+            }
+
         }
         
         
+    }
+    .container-title-h1-pagefour {
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 100px;
+        
+        .pagefour-h1 {
+            font-weight: 700;
+            font-size: 40px;
+            color: #53A6AA;
+        }
+    }
+    
+    .container-pagefour-cards {
+        max-width: 1440px;
+        margin: 0 auto;
+        gap: 40px;
+        display: flex;
+
+        .three-page__card7 {
+            width: 318px;
+            height: 401px;
+            background-color: #FFFFFF;
+            border-radius: 5px;
+            display: block;
+    
+            .container-card7__img {
+                padding: 30px;
+                
+                .card7__img {
+                    width: 232px;
+                    height: 78px;
+                }
+            }
+    
+            .container-card7__spantitle {
+                display: block;
+                padding: 0 30px;
+                margin-top: 20px;
+                
+                .card7__price {
+                    display: block;
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: #53A6AA;
+                    margin-bottom: 10px;
+                }
+    
+                .card7__title {
+                    display: block;
+                    font-weight: 700;
+                    font-size: 21px;
+                    color: #161820;
+                }
+            }
+    
+        .stars {
+            padding: 55px 30px;
+        }
+    
+        .basket {
+            position: relative;
+            top: -50px;
+            left: 50px;
+            cursor: pointer;
+        }
+    
+        }   
+
+        .three-page__card8 {
+            width: 318px;
+            height: 401px;
+            background-color: #FFFFFF;
+            border-radius: 5px;
+            display: block;
+    
+            .container-card8__img {
+                padding: 30px;
+                
+                .card8__img {
+                    width: 230px;
+                    height: 71px;
+                }
+            }
+    
+            .container-card8__spantitle {
+                display: block;
+                padding: 0 30px;
+                margin-top: 20px;
+                
+                .card8__price {
+                    display: block;
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: #53A6AA;
+                    margin-bottom: 10px;
+                }
+    
+                .car8__title {
+                    display: block;
+                    font-weight: 700;
+                    font-size: 21px;
+                    color: #161820;
+                }
+            }
+    
+        .stars {
+            padding: 55px 30px;
+        }
+    
+        .basket {
+            position: relative;
+            top: -50px;
+            left: 50px;
+            cursor: pointer;
+        }
+    
+        }
+        
+        .three-page__card9 {
+            width: 318px;
+            height: 401px;
+            background-color: #FFFFFF;
+            border-radius: 5px;
+            display: block;
+    
+            .container-card9__img {
+                padding: 30px;
+                
+                .card9__img {
+                    width: 279px;
+                    height: 98px;
+                }
+            }
+    
+            .container-card9__spantitle {
+                display: block;
+                padding: 0 30px;
+                margin-top: 20px;
+                
+                .card9__price {
+                    display: block;
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: #53A6AA;
+                    margin-bottom: 10px;
+                }
+    
+                .card9__title {
+                    display: block;
+                    font-weight: 700;
+                    font-size: 21px;
+                    color: #161820;
+                }
+            }
+    
+        .stars {
+            padding: 55px 30px;
+        }
+    
+        .basket {
+            position: relative;
+            top: -50px;
+            left: 50px;
+            cursor: pointer;
+        }
+    
+        } 
     }
 }
 
