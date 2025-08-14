@@ -690,4 +690,235 @@ $color-low: #161820CC;
         }
         }
 
+}
+
+.three-page {
+    background-color: #191D2D;
+    width: auto;
+    height: 1352px;
+
+    .container-three-page {
+        max-width: 1440px;
+        margin: 0 auto;
+        
+        .container-title-three-page {
+            padding-top: 100px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-bottom: 80px;
+            
+            .title-three-page {
+                font-weight: 700;
+                font-size: 40px;
+                color: #53A6AA;
+            }
+        }
+
+        .container-three-page-cards {
+            max-width: 1440px;
+            gap: 5px;
+            display: flex;
+            justify-content: space-between;
+
+            .three-page__card1 {
+                width: 318px;
+                height: 401px;
+                background-color: #FFFFFF;
+                border-radius: 5px;
+                display: block;
+
+                .container-card1__img {
+                    padding: 40px 43.5px;
+                    
+                    .card1__img {
+                        width: 221px;
+                        height: 131px;
+                    }
+                }
+
+                .container-card1__spantitle {
+                    display: block;
+                    padding: 0 30px;
+                    margin-top: 20px;
+                    
+                    .card1__price {
+                        display: block;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #53A6AA;
+                        margin-bottom: 10px;
+                    }
+    
+                    .card1__title {
+                        display: block;
+                        font-weight: 700;
+                        font-size: 21px;
+                        color: #161820;
+                    }
+                }
+
+            .stars {
+                padding: 55px 30px;
+            }
+
+            .basket {
+                position: relative;
+                top: -50px;
+                left: 50px;
+                cursor: pointer;
+            }
+
+            }   
+
+            .three-page__card2 {
+                width: 318px;
+                height: 401px;
+                background-color: #FFFFFF;
+                border-radius: 5px;
+
+                .container-card2__img {
+                    padding: 50px;
+
+                    .card2__img {
+                        width: 247px;
+                        height: 87px;
+                    }
+                }
+
+                .container-card2__spantitle {
+                    display: block;
+                    padding: 0 30px;
+                    margin-top: 43px;
+
+                    .card2__price {
+                        display: block;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #53A6AA;
+                        margin-bottom: 10px;
+                    }
+
+                    .card2__title {
+                        display: block;
+                        font-weight: 700;
+                        font-size: 21px;
+                        color: #161820;
+                    }
+                }
+            }
+
+            .stars {
+                padding: 55px 30px;
+            }
+
+            .basket {
+                position: relative;
+                top: -50px;
+                left: 50px;
+                cursor: pointer;
+            }
+
+            .three-page__card3 {
+                width: 318px;
+                height: 401px;
+                background-color: #FFFFFF;
+                border-radius: 5px;
+
+                .container-card3__img {
+                    padding: 40px;
+
+                    .card3__img {
+                        width: 269px;
+                        height: 122px;
+                    }
+                }
+                
+                .container-card3__spantitle {
+                    display: block;
+                    padding: 0 30px;
+                    margin-top: 20px;
+
+                    .card3__price {
+                        display: block;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #53A6AA;
+                        margin-bottom: 10px;
+                    }
+
+                    .card3__title {
+                        display: block;
+                        font-weight: 700;
+                        font-size: 21px;
+                        color: #161820;
+                    }
+                }
+            }
+
+            .stars {
+                padding: 55px 30px;
+            }
+
+            .basket {
+                position: relative;
+                top: -50px;
+                left: 50px;
+                cursor: pointer;
+            }
+
+            .three-page__card4 {
+                width: 318px;
+                height: 401px;
+                background-color: #FFFFFF;
+                border-radius: 5px;
+
+                .container-card4__img {
+                    padding: 40px;
+
+                    .card4__img {
+                        width: 220px;
+                        height: 99px;
+                    }
+                }
+
+            }
+
+            .container-card4__spantitle {
+                display: block;
+                padding: 0 30px;
+                margin-top: 20px;
+
+                .card4__price {
+                    display: block;
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: #53A6AA;
+                    margin-bottom: 10px;
+                }
+
+                .card4__title {
+                    display: block;
+                    font-weight: 700;
+                    font-size: 21px;
+                    color: #161820;
+                }
+            }
+
+            .stars {
+                padding: 55px 30px;
+            }
+
+            .basket {
+                position: relative;
+                top: -50px;
+                left: 50px;
+                cursor: pointer;
+            }
+
+        }
+        
+        
     }
+}
+
