@@ -1116,33 +1116,51 @@ body {
   color: #161820;
   left: 15%;
 }
-.four-page__container-cards .four-page__container-one-row .four-page__card2 .four-page__card3 {
+.four-page__container-cards .four-page__card3 {
   width: 148px;
   height: 148px;
   background-color: rgba(25, 29, 45, 0.031372549);
   border-radius: 5px;
 }
-.four-page__container-cards .four-page__container-one-row .four-page__card2 .four-page__card3 .four-page__container-img3 {
+.four-page__container-cards .four-page__card3 .four-page__container-img3 {
   padding: 40px;
 }
-.four-page__container-cards .four-page__container-one-row .four-page__card2 .four-page__card3 .four-page__container-img3 .network {
+.four-page__container-cards .four-page__card3 .four-page__container-img3 .network {
   width: 67px;
   height: 67px;
 }
-.four-page__container-cards .four-page__container-one-row .four-page__card2 .four-page__card3 .four-page__container-textcard3 {
+.four-page__container-cards .four-page__card3 .four-page__container-textcard3 {
   position: relative;
   right: 100%;
   top: 28.8%;
-  width: 235%;
+  margin-top: -2px;
+  width: 195%;
   padding-right: 0px;
   text-align: right;
 }
-.four-page__container-cards .four-page__container-one-row .four-page__card2 .four-page__card3 .four-page__container-textcard3 .four-page__textcard3 {
+.four-page__container-cards .four-page__card3 .four-page__container-textcard3 .four-page__textcard3 {
   font-weight: 700;
   font-size: 18px;
   color: #161820;
   white-space: nowrap;
   position: relative;
+}
+.four-page__container-cards .four-page__card3 .four-page__container-textcard3 .four-page__textcard3 .four-page__more {
+  font-weight: 700;
+  font-size: 18px;
+  color: #161820;
+}
+.four-page__container-cards .four-page__card3 .four-page__container-textcard3 .four-page__textcard3 .four-page__tenthousand {
+  font-weight: 700;
+  font-size: 18px;
+  color: #53A6AA;
+}
+.four-page__container-cards .four-page__card3 .four-page__container-textcard3 .four-page__textcard3 .four-page__clients {
+  font-weight: 700;
+  position: relative;
+  font-size: 18px;
+  color: #161820;
+  left: 20%;
 }
 
 /*# sourceMappingURL=styles.css.map */
