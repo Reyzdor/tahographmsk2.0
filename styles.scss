@@ -1153,15 +1153,18 @@ $color-low: #161820CC;
     width: 100%;
     display: flex;
     height: auto;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 
     .container-four-page__h1 {
         padding-top: 100px;
         align-items: center;
         justify-content: center;
         display: flex;
-        margin-bottom: 100px;
+        flex-shrink: 0;
+        margin-bottom: 60px;
 
         .four-page__main {
             font-weight: 700;
@@ -1175,6 +1178,74 @@ $color-low: #161820CC;
                 font-size: 40px;
                 color: #53A6AA;
             }
+        }
+    }
+}
+
+.four-page__container-cards {
+    width: 100%;
+    background-color: transparent;
+
+    .four-page__container-one-row{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 50px 20px;
+        display: flex;
+        gap: 150px;
+        justify-content: center;
+
+        .four-page__card1 {
+            width: 148px;
+            height: 148px;
+            background-color: #191D2D08;
+            border-radius: 5px;
+
+            .for-page__container-img1 {
+                padding: 40px;
+
+                .for-page__cup {
+                    width: 67px;
+                    height: 67px;
+                }
+            }
+
+            .four-page__container-textcard1 {
+                position: relative;
+                right: 100%;
+                top: 25%;
+                width: 211.5%;
+                padding-right: 0px;
+                text-align: right;
+
+                .four-page__textcard1 {
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #161820;
+                    white-space: nowrap; 
+
+                    .four-page__spantextcard1 {
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #53A6AA;
+                        white-space: nowrap; 
+                    }
+                }
+            }
+        }
+
+        .four-page__card2 {
+            width: 148px;
+            height: 148px;
+            background-color: #191D2D08;
+            border-radius: 5px;
+        }
+
+        .four-page__card3 {
+            width: 148px;
+            height: 148px;
+            background-color: #191D2D08;
+            border-radius: 5px;
         }
     }
 }
