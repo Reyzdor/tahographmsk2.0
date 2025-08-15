@@ -1149,3 +1149,32 @@ $color-low: #161820CC;
     }
 }
 
+.container-four-page {
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+    .container-four-page__h1 {
+        padding-top: 100px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 100px;
+
+        .four-page__main {
+            font-weight: 700;
+            font-size: 40px;
+            color: #161820;
+            text-align: center;
+
+            .four-page__blue,
+            .four-page__span2 {
+                font-weight: 700;
+                font-size: 40px;
+                color: #53A6AA;
+            }
+        }
+    }
+}

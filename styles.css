@@ -982,4 +982,31 @@ body {
   cursor: pointer;
 }
 
+.container-four-page {
+  width: 100%;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.container-four-page .container-four-page__h1 {
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 100px;
+}
+.container-four-page .container-four-page__h1 .four-page__main {
+  font-weight: 700;
+  font-size: 40px;
+  color: #161820;
+  text-align: center;
+}
+.container-four-page .container-four-page__h1 .four-page__main .four-page__blue,
+.container-four-page .container-four-page__h1 .four-page__main .four-page__span2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #53A6AA;
+}
+
 /*# sourceMappingURL=styles.css.map */
