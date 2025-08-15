@@ -1051,12 +1051,21 @@ body {
   font-size: 18px;
   color: #161820;
   white-space: nowrap;
+  position: relative;
 }
 .four-page__container-cards .four-page__container-one-row .four-page__card1 .four-page__container-textcard1 .four-page__textcard1 .four-page__spantextcard1 {
   font-weight: 700;
   font-size: 18px;
   color: #53A6AA;
   white-space: nowrap;
+}
+.four-page__container-cards .four-page__container-one-row .four-page__card1 .four-page__container-textcard1 .four-page__textcard1 .four-page__spanjob {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  color: #161820;
+  left: 20%;
 }
 .four-page__container-cards .four-page__container-one-row .four-page__card2 {
   width: 148px;

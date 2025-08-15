@@ -1223,12 +1223,22 @@ $color-low: #161820CC;
                     font-size: 18px;
                     color: #161820;
                     white-space: nowrap; 
+                    position: relative;
 
                     .four-page__spantextcard1 {
                         font-weight: 700;
                         font-size: 18px;
                         color: #53A6AA;
                         white-space: nowrap; 
+                    }
+
+                    .four-page__spanjob {
+                        position: relative;
+                        display: block;
+                        text-align: center;
+                        margin-top: 5px;
+                        color: #161820;
+                        left: 20%;
                     }
                 }
             }
