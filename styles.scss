@@ -1186,14 +1186,16 @@ $color-low: #161820CC;
     width: 100%;
     background-color: transparent;
 
+
     .four-page__container-one-row{
         width: 100%;
-        max-width: 1200px;
+        max-width: 800px;
         margin: 0 auto;
         padding: 50px 20px;
         display: flex;
-        gap: 150px;
-        justify-content: center;
+        position: relative;
+        gap: 0px;
+        justify-content: space-between;
 
         .four-page__card1 {
             width: 148px;
@@ -1249,6 +1251,54 @@ $color-low: #161820CC;
             height: 148px;
             background-color: #191D2D08;
             border-radius: 5px;
+
+            .four-page__container-img2 {
+                padding:30px 30px;
+                padding-right: 15px;
+
+                .four-page__work {
+                    width: 82px;
+                    height: 82px;
+                }
+            }
+
+            .four-page__container-textcard2 {
+                position: relative;
+                right: 100%;
+                top: 28.8%;
+                width: 235%;
+                padding-right: 0px;
+                text-align: right;
+
+                .four-page__textcard2 {
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #161820;
+                    white-space: nowrap; 
+                    position: relative;
+
+                    .four-page__master,
+                    .four-page__minus {
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #161820;
+                    }
+
+                    .four-page__twentyfour {
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #53A6AA;
+                    }
+
+                    .four-page__everyday {
+                        position: relative;
+                        display: block;
+                        text-align: center;
+                        margin-top: 5px;
+                        color: #161820;
+                        left: 15%;
+                    }
+            }
         }
 
         .four-page__card3 {
@@ -1256,6 +1306,41 @@ $color-low: #161820CC;
             height: 148px;
             background-color: #191D2D08;
             border-radius: 5px;
+
+            .four-page__container-img3 {
+                padding: 40px;
+
+                .network {
+                    width: 67px;
+                    height: 67px;
+                }
+            }
+
+            .four-page__container-textcard3 {
+                position: relative;
+                right: 100%;
+                top: 28.8%;
+                width: 235%;
+                padding-right: 0px;
+                text-align: right;
+
+                .four-page__textcard3 {
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #161820;
+                    white-space: nowrap; 
+                    position: relative;
+                }
+            }
+
+        }
+
+        
+
+
+
+            }
         }
     }
-}
+
+   
