@@ -1340,6 +1340,8 @@ $color-low: #161820CC;
             position: relative;
             
             .four-page__container-moretextcard3 {
+                margin-top: -6px;
+                position: relative;
                 padding-bottom: 7px;
             }
 
@@ -1403,6 +1405,7 @@ $color-low: #161820CC;
                 font-weight: 700;
                 font-size: 18px;
                 color: #161820;
+                line-height: 1.5;
                 white-space: nowrap; 
                 position: relative;
             }
@@ -1412,6 +1415,7 @@ $color-low: #161820CC;
                 font-size: 18px;
                 color: #53A6AA;
                 white-space: nowrap; 
+                margin-bottom: 10px;
                 position: relative;
             }
         }

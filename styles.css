@@ -1146,6 +1146,8 @@ body {
   position: relative;
 }
 .four-page__container-cards .four-page__card3 .four-page__container-textcard3 .four-page__textcard3 .four-page__container-moretextcard3 {
+  margin-top: -6px;
+  position: relative;
   padding-bottom: 7px;
 }
 .four-page__container-cards .four-page__card3 .four-page__container-textcard3 .four-page__textcard3 .four-page__more {
@@ -1200,6 +1202,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   color: #161820;
+  line-height: 1.5;
   white-space: nowrap;
   position: relative;
 }
@@ -1208,6 +1211,7 @@ body {
   font-size: 18px;
   color: #53A6AA;
   white-space: nowrap;
+  margin-bottom: 10px;
   position: relative;
 }
 
