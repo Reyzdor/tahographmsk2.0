@@ -234,7 +234,7 @@ body {
 }
 .nav-main .lists .block-tl {
   order: -1;
-  margin-top: -390px;
+  margin-top: -380px;
   margin-left: auto;
   padding-right: 30px;
   z-index: 100;
@@ -1132,8 +1132,8 @@ body {
 .four-page__container-cards .four-page__card3 .four-page__container-textcard3 {
   position: relative;
   right: 100%;
-  top: 28.8%;
-  margin-top: -2px;
+  top: 30%;
+  margin-top: -5px;
   width: 195%;
   padding-right: 0px;
   text-align: right;
@@ -1144,6 +1144,9 @@ body {
   color: #161820;
   white-space: nowrap;
   position: relative;
+}
+.four-page__container-cards .four-page__card3 .four-page__container-textcard3 .four-page__textcard3 .four-page__container-moretextcard3 {
+  padding-bottom: 7px;
 }
 .four-page__container-cards .four-page__card3 .four-page__container-textcard3 .four-page__textcard3 .four-page__more {
   font-weight: 700;
@@ -1160,7 +1163,52 @@ body {
   position: relative;
   font-size: 18px;
   color: #161820;
-  left: 20%;
+  left: 22%;
+}
+
+.four-page__container-two-row {
+  max-width: 750px;
+  width: 100%;
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  position: relative;
+}
+.four-page__container-two-row .four-page__card4 {
+  width: 148px;
+  height: 148px;
+  background-color: rgba(25, 29, 45, 0.031372549);
+  border-radius: 5px;
+}
+.four-page__container-two-row .four-page__card4 .four-page__container-img4 {
+  padding: 40px;
+}
+.four-page__container-two-row .four-page__card4 .four-page__container-img4 .four-page__shield {
+  width: 58px;
+  height: 58px;
+}
+.four-page__container-two-row .four-page__card4 .four-page__container-textcard4 {
+  position: relative;
+  right: 100%;
+  top: 30%;
+  margin-top: -10px;
+  width: 220%;
+  padding-right: 0px;
+  text-align: right;
+}
+.four-page__container-two-row .four-page__card4 .four-page__container-textcard4 .four-page__textcard4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #161820;
+  white-space: nowrap;
+  position: relative;
+}
+.four-page__container-two-row .four-page__card4 .four-page__container-textcard4 .four-page__3years {
+  font-weight: 700;
+  font-size: 18px;
+  color: #53A6AA;
+  white-space: nowrap;
+  position: relative;
 }
 
 /*# sourceMappingURL=styles.css.map */
