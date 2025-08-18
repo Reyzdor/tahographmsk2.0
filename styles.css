@@ -1169,8 +1169,9 @@ body {
 }
 
 .four-page__container-two-row {
-  max-width: 750px;
+  max-width: 1750px;
   width: 100%;
+  gap: 170px;
   display: flex;
   padding: 100px;
   justify-content: center;
@@ -1213,6 +1214,141 @@ body {
   white-space: nowrap;
   margin-bottom: 10px;
   position: relative;
+}
+.four-page__container-two-row .four-page__card5 {
+  width: 148px;
+  height: 148px;
+  background-color: rgba(25, 29, 45, 0.031372549);
+  border-radius: 5px;
+}
+.four-page__container-two-row .four-page__card5 .four-page__container-img5 {
+  padding: 40px;
+}
+.four-page__container-two-row .four-page__card5 .four-page__container-img5 .four-page__box {
+  width: 71px;
+  height: 71px;
+}
+.four-page__container-two-row .four-page__card5 .four-page__container-textcard5 {
+  position: relative;
+  right: 100%;
+  top: 30%;
+  margin-top: -20.5px;
+  width: 240%;
+  padding-right: 0px;
+  text-align: right;
+}
+.four-page__container-two-row .four-page__card5 .four-page__container-textcard5 .four-page__textcard5 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #161820;
+  line-height: 1.5;
+  white-space: nowrap;
+  position: relative;
+}
+.four-page__container-two-row .four-page__card5 .four-page__container-textcard5 .four-page__textcard5 .four-page__equip {
+  font-weight: 700;
+  font-size: 18px;
+  color: #53A6AA;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  position: relative;
+}
+.four-page__container-two-row .four-page__card5 .four-page__container-textcard5 .four-page__textcard5 .four-page__warehouse {
+  position: relative;
+  display: block;
+  text-align: center;
+  color: #161820;
+  left: 15%;
+}
+.four-page__container-two-row .four-page__card6 {
+  width: 148px;
+  height: 148px;
+  background-color: rgba(25, 29, 45, 0.031372549);
+  border-radius: 5px;
+}
+.four-page__container-two-row .four-page__card6 .four-page__container-img6 {
+  padding: 40px;
+}
+.four-page__container-two-row .four-page__card6 .four-page__container-img6 .four-page__box {
+  width: 63px;
+  height: 62px;
+}
+.four-page__container-two-row .four-page__card6 .four-page__container-textcard6 {
+  position: relative;
+  right: 100%;
+  top: 35%;
+  margin-top: -20.5px;
+  width: 245%;
+  padding-right: 0px;
+  text-align: right;
+}
+.four-page__container-two-row .four-page__card6 .four-page__container-textcard6 .four-page__textcard6 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #161820;
+  line-height: 1.5;
+  white-space: nowrap;
+  position: relative;
+}
+.four-page__container-two-row .four-page__card6 .four-page__container-textcard6 .four-page__textcard6 .four-page__everydaym {
+  font-weight: 700;
+  font-size: 18px;
+  color: #53A6AA;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  position: relative;
+}
+.four-page__container-two-row .four-page__card6 .four-page__container-textcard6 .four-page__textcard6 .four-page__everydayequip {
+  position: relative;
+  display: block;
+  text-align: center;
+  color: #161820;
+  left: 15%;
+}
+.four-page__container-two-row .four-page__card7 {
+  width: 148px;
+  height: 148px;
+  background-color: rgba(25, 29, 45, 0.031372549);
+  border-radius: 5px;
+}
+.four-page__container-two-row .four-page__card7 .four-page__container-img7 {
+  padding: 40px;
+}
+.four-page__container-two-row .four-page__card7 .four-page__container-img7 .four-page__box {
+  width: 73px;
+  height: 73px;
+}
+.four-page__container-two-row .four-page__card7 .four-page__container-textcard7 {
+  position: relative;
+  right: 100%;
+  top: 30%;
+  margin-top: -20.5px;
+  width: 245%;
+  padding-right: 0px;
+  text-align: right;
+}
+.four-page__container-two-row .four-page__card7 .four-page__container-textcard7 .four-page__textcard7 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #161820;
+  line-height: 1.5;
+  white-space: nowrap;
+  position: relative;
+}
+.four-page__container-two-row .four-page__card7 .four-page__container-textcard7 .four-page__textcard7 .four-page__lifelong {
+  font-weight: 700;
+  font-size: 18px;
+  color: #53A6AA;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  position: relative;
+}
+.four-page__container-two-row .four-page__card7 .four-page__container-textcard7 .four-page__textcard7 .four-page__fuel {
+  position: relative;
+  display: block;
+  text-align: center;
+  color: #161820;
+  left: 15%;
 }
 
 /*# sourceMappingURL=styles.css.map */
