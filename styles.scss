@@ -1612,7 +1612,7 @@ $color-low: #161820CC;
         position: relative;
         right: 0;
         top: 0;
-        padding: 100px 100px;   
+        padding: 65px 100px;   
         margin-left: 50%;
     }
     
@@ -1652,23 +1652,33 @@ $color-low: #161820CC;
     }
 
     &__container-circles {
-        margin: auto;
+        margin-right: 500   px;
+        position: relative;
     }
 
     &__container-inner-circles {
         display: flex;
-        gap: 30px;
+        padding-right: 30px;
+        position: relative;
+        gap: 100px;
+    }
+
+    &__circle-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
 
         &__circle1blue {
             width: 78px;
             height: 78px;
             background-color: #53A6AA;
-            border-radius: 50%; // Исправлено с 50px на 50% для идеального круга
-            display: flex; // Добавлено для центрирования содержимого
-            align-items: center; // Вертикальное центрирование
-            justify-content: center; // Горизонтальное центрирование
-            position: relative; // Для позиционирования внутренних элементов
+            border-radius: 50%; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            position: relative; 
 
             &__container-circle1blue {
 
@@ -1678,20 +1688,71 @@ $color-low: #161820CC;
                     height: 38px;
                 }
             }
+
+            &__container-circle1blue-texts {
+                padding: 100px 20px;
+                position: relative;
+
+                &__circle1blue_text1,
+                &__circle1blue_text2 {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #161820;
+                }
+            }
         }
 
         &__circle2blue {
             width: 78px;
             height: 78px;
             background-color: #53A6AA;
-            border-radius: 50px;
+            border-radius: 50%; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            position: relative; 
+
+            &__container-circle2blue {
+
+                &__pp {
+                    display: block;
+                    width: 46px;
+                    height: 46px;
+                }
+            }
         }
 
 
         &__circle3blue {
-            width: 78px;
+           width: 78px;
             height: 78px;
             background-color: #53A6AA;
-            border-radius: 50px;
+            border-radius: 50%; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            position: relative;
+
+              &__container-circle3blue {
+
+                &__certificate {
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+
+        &__container_last_title1 {
+            line-height: 1.94;
+            padding-top: 50px;
+    
+            &__last_text1 {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.94;
+                color: #161820;
+            }
         }
     }
+

@@ -1379,7 +1379,7 @@ body {
   position: relative;
   right: 0;
   top: 0;
-  padding: 100px 100px;
+  padding: 65px 100px;
   margin-left: 50%;
 }
 .five-page__container-buy {
@@ -1411,11 +1411,20 @@ body {
   color: #53A6AA;
 }
 .five-page__container-circles {
-  margin: auto;
+  margin-right: 500 px;
+  position: relative;
 }
 .five-page__container-inner-circles {
   display: flex;
-  gap: 30px;
+  padding-right: 30px;
+  position: relative;
+  gap: 100px;
+}
+.five-page__circle-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 .five-page__circle1blue {
   width: 78px;
@@ -1432,17 +1441,54 @@ body {
   width: 38px;
   height: 38px;
 }
+.five-page__circle1blue__container-circle1blue-texts {
+  padding: 100px 20px;
+  position: relative;
+}
+.five-page__circle1blue__container-circle1blue-texts__circle1blue_text1, .five-page__circle1blue__container-circle1blue-texts__circle1blue_text2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #161820;
+}
 .five-page__circle2blue {
   width: 78px;
   height: 78px;
   background-color: #53A6AA;
-  border-radius: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.five-page__circle2blue__container-circle2blue__pp {
+  display: block;
+  width: 46px;
+  height: 46px;
 }
 .five-page__circle3blue {
   width: 78px;
   height: 78px;
   background-color: #53A6AA;
-  border-radius: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.five-page__circle3blue__container-circle3blue__certificate {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+.five-page__container_last_title1 {
+  line-height: 1.94;
+  padding-top: 50px;
+}
+.five-page__container_last_title1__last_text1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.94;
+  color: #161820;
 }
 
 /*# sourceMappingURL=styles.css.map */
