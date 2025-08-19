@@ -1352,23 +1352,58 @@ body {
 }
 
 .five-page {
-  display: flex;
   width: 100%;
+  max-width: 1922px;
+  margin: 0 auto;
   height: 831px;
-  overflow: hidden;
-}
-.five-page .five-page__image-right {
-  width: 30%;
-  background-image: url(" /image/five-page.png");
-  background-size: cover;
-  background-position: center;
-  height: 831px;
-  width: 789px;
-}
-.five-page .five-page__content {
-  width: 70%;
   background-color: #F8F8F9;
-  padding-left: 50px;
+  position: relative;
+}
+.five-page__container {
+  height: 100%;
+  display: flex;
+}
+.five-page__inner {
+  width: 50%;
+  height: 100%;
+  background-image: url("/image/five-page.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.five-page__container-right {
+  position: relative;
+  right: 0;
+  top: 0;
+  padding: 100px 100px;
+}
+.five-page__container-buy {
+  margin-bottom: 20px;
+}
+.five-page__where, .five-page__thinmoscow {
+  font-weight: 700;
+  font-size: 40px;
+  color: #161820;
+}
+.five-page__buy {
+  font-weight: 700;
+  font-size: 40px;
+  color: #53A6AA;
+}
+.five-page__container-texts {
+  margin-bottom: 20px;
+}
+.five-page__text1 {
+  font-weight: 400;
+  line-height: 1.94;
+  font-size: 16px;
+  color: #161820;
+}
+.five-page__text2 {
+  font-weight: 600;
+  line-height: 1.94;
+  font-size: 16px;
+  color: #53A6AA;
 }
 
 /*# sourceMappingURL=styles.css.map */
