@@ -1638,7 +1638,7 @@ body {
 .eight-page__container-right {
   max-width: 100px;
   width: 100%;
-  gap: 30px;
+  gap: 50px;
   position: relative;
   display: block;
   margin: 0 auto;
@@ -1648,7 +1648,6 @@ body {
   position: relative;
   margin-top: -200px;
   margin-left: 200px;
-  gap: 50px;
 }
 .eight-page__circle1 {
   width: 78px;
@@ -1656,6 +1655,21 @@ body {
   background-color: #53A6AA;
   border-radius: 50%;
   position: relative;
+  margin-bottom: 50px;
+}
+.eight-page__container-certificate {
+  padding: 19px;
+}
+.eight-page__container-certificate__certificate1 {
+  width: 40px;
+  height: 40px;
+}
+.eight-page__container-car {
+  padding: 20px;
+}
+.eight-page__container-car__car {
+  width: 37px;
+  height: 37px;
 }
 .eight-page__circle2 {
   width: 78px;
@@ -1663,6 +1677,14 @@ body {
   background-color: #53A6AA;
   border-radius: 50%;
   position: relative;
+  margin-bottom: 50px;
+}
+.eight-page__container-glonass {
+  padding: 20px;
+}
+.eight-page__container-glonass__glonass {
+  width: 36px;
+  height: 36px;
 }
 .eight-page__circle3 {
   width: 78px;
@@ -1670,6 +1692,7 @@ body {
   background-color: #53A6AA;
   border-radius: 50%;
   position: relative;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
