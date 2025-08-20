@@ -1694,5 +1694,23 @@ body {
   position: relative;
   margin-bottom: 50px;
 }
+.eight-page__container-text-circles {
+  position: relative;
+}
+.eight-page__container-circle1-text1 {
+  margin-bottom: 10px;
+}
+.eight-page__circle-text1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #161820;
+}
+.eight-page__circle-text2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #161820;
+}
 
 /*# sourceMappingURL=styles.css.map */

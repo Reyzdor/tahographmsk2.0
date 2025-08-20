@@ -1956,7 +1956,7 @@ $color-low: #161820CC;
         }
     }
 
-    &__container-circle2\ {
+    &__container-circle2 {
         
     }
 
@@ -1998,5 +1998,27 @@ $color-low: #161820CC;
         border-radius: 50%;
         position: relative;
         margin-bottom: 50px;
+    }
+
+    &__container-text-circles {
+        position: relative;
+    }
+
+    &__container-circle1-text1 {
+        margin-bottom: 10px;
+    }
+
+    &__circle-text1 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.33;
+        color: #161820;
+    }
+
+    &__circle-text2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.45;
+        color: #161820;
     }
 }
