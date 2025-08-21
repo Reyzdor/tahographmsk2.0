@@ -2107,3 +2107,94 @@ $color-low: #161820CC;
     }
     
 }
+
+.ten-page {
+    width: 100%;
+    height: 703px;
+    background-color: #53A6AA;
+
+    &__container-title {
+        padding-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 120px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.33;
+        color: #FFFFFF;
+    }
+
+    &__container-center {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    &__review1 {
+        width: 338px;
+        height: 274px;
+        background-color: #FFFFFF;
+        border-radius: 12px;
+    }
+
+    &__container-review1 {
+        display: block;
+        padding: 30px 20px;
+    }
+
+    &__container-review1-title {
+        margin-bottom: 15px;
+    }
+
+    &__container-stars {
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+
+    &__container-text1-review1 {
+        overflow: hidden;
+    }
+
+    &__review1-title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        color: #000000;
+    }
+
+    &__stars {
+        width: 130px;
+        height: 26px;
+    }
+
+    &__review1-review {
+        font-weight: 400;
+        font-size: 14px;
+        color: #000000;
+        line-height: 1.63;
+        word-break: break-all;
+    }
+
+    &__review2 {
+        width: 338px;
+        height: 274px;
+        background-color: #FFFFFF;
+        border-radius: 12px;
+    }
+
+    &__review3 {
+        width: 338px;
+        height: 274px;
+        background-color: #FFFFFF;
+        border-radius: 12px;
+    }
+
+    
+}
