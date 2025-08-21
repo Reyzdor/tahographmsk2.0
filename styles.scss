@@ -2201,13 +2201,15 @@ $color-low: #161820CC;
         padding: 30px 20px;
     }
 
-    &__container-review2-title {
+    &__container-review2-title2 {
         margin-bottom: 15px;
     }
 
     &__container-stars2 {
+        position: relative;
         margin-right: 10px;
-        margin-bottom: 15px;
+        top: 15px;
+        margin-bottom: 25px;
     }
 
     &__container-text2-review2 {
@@ -2241,5 +2243,44 @@ $color-low: #161820CC;
         border-radius: 12px;
     }
 
+    &__container-review3 {
+        display: block;
+        padding: 30px 20px;
+    }
+
+    &__container-review3-title3 {
+        margin-bottom: 15px;
+    }
+
+    &__container-stars3 {
+        position: relative;
+        margin-right: 10px;
+        top: 15px;
+        margin-bottom: 25px;
+    }
+
+    &__container-text3-review3 {
+        overflow: hidden;
+    }
+
+    &__review3-title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        color: #000000;
+    }
+
+    &__stars3 {
+        width: 130px;
+        height: 26px;
+    }
+
+    &__review3-review {
+        font-weight: 400;
+        font-size: 14px;
+        color: #000000;
+        line-height: 1.63;
+        word-break: break-all;
+    }
     
 }
