@@ -1714,5 +1714,30 @@ body {
   line-height: 1.45;
   color: #161820;
 }
+.eight-page__two {
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+}
+.eight-page__container-text-two {
+  position: relative;
+  top: -370px;
+  left: 100px;
+}
+.eight-page__container-text1-two {
+  padding-bottom: 10px;
+}
+.eight-page__text1-two {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #161820;
+}
+.eight-page__text1two {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #161820;
+}
 
 /*# sourceMappingURL=styles.css.map */

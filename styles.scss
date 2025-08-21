@@ -2026,4 +2026,35 @@ $color-low: #161820CC;
         line-height: 1.45;
         color: #161820;
     }
+
+    &__two {
+        position: relative;
+        max-width: 1200px;
+        width: 100%;        
+    }
+
+    &__container-text-two {
+        position: relative;
+        top: -370px;
+        left: 100px;
+    }
+
+    &__container-text1-two {
+        padding-bottom: 10px;
+    }
+
+    &__text1-two {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.33;
+        color: #161820;
+    }
+
+    &__text1two {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.45;
+        color: #161820;
+
+    }
 }
