@@ -2035,12 +2035,12 @@ $color-low: #161820CC;
 
     &__container-text-two {
         position: relative;
-        top: -370px;
+        top: -375px;
         left: 100px;
     }
 
-    &__container-text1-two {
-        padding-bottom: 10px;
+    &__text1title {
+        margin-bottom: 10px;
     }
 
     &__text1-two {
@@ -2055,6 +2055,55 @@ $color-low: #161820CC;
         font-size: 16px;
         line-height: 1.45;
         color: #161820;
-
+        margin: 0;
     }
+
+    &__container-text-three {
+        position: relative;
+        top: -310px;
+        left: 100px;
+    }
+
+    &__text2title {
+        margin-bottom: 10px;
+    }
+
+    &__text3-three {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.33;
+        color: #161820;
+    }
+
+    &__text3three {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.45;
+        color: #161820;
+    }
+
+    &__container-text-four {
+        position: relative;
+        top: -245px;
+        left: 100px;
+    }
+
+     &__text3title {
+        margin-bottom: 10px;
+    }
+
+    &__text4-four {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.33;
+        color: #161820;
+    }
+
+    &__text4four {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.45;
+        color: #161820;
+    }
+    
 }
