@@ -1694,8 +1694,10 @@ body {
   position: relative;
   margin-bottom: 50px;
 }
-.eight-page__container-text-circles {
+.eight-page__wrapper-text {
   position: relative;
+  margin-top: 30px;
+  margin-left: 0px;
 }
 .eight-page__container-circle1-text1 {
   margin-bottom: 10px;
