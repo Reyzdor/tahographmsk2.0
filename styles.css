@@ -1856,5 +1856,42 @@ body {
   background-color: #FFFFFF;
   border-radius: 12px;
 }
+.ten-page__container-review2 {
+  display: block;
+  padding: 30px 20px;
+}
+.ten-page__container-review2-title {
+  margin-bottom: 15px;
+}
+.ten-page__container-stars2 {
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.ten-page__container-text2-review2 {
+  overflow: hidden;
+}
+.ten-page__review2-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #000000;
+}
+.ten-page__stars2 {
+  width: 130px;
+  height: 26px;
+}
+.ten-page__review2-review {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.63;
+  word-break: break-all;
+}
+.ten-page__review3 {
+  width: 338px;
+  height: 274px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+}
 
 /*# sourceMappingURL=styles.css.map */
