@@ -1980,6 +1980,8 @@ body {
 }
 .footer .taho-block {
   padding: 0px 150px;
+  position: relative;
+  top: -50px;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -2014,7 +2016,7 @@ body {
 .footer .taho-block .footer-big-container {
   position: relative;
   margin-right: 100px;
-  margin-top: -30px;
+  margin-top: -20px;
 }
 .footer .taho-block .footer-big-container .footer-container-span {
   margin-bottom: 20px;
@@ -2045,9 +2047,9 @@ body {
 }
 .footer .footer-container-big-two {
   position: relative;
-  margin-top: 190px;
+  margin-top: 230px;
   margin-right: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .footer .footer-container-big-two .footer-span2 {
   margin-bottom: 20px;
@@ -2067,7 +2069,7 @@ body {
 }
 .footer .footer-container-big-three {
   position: relative;
-  top: 0px;
+  top: 30px;
   margin-right: 100px;
 }
 .footer .footer-container-big-three .footer-span3 {
@@ -2084,6 +2086,87 @@ body {
   font-size: 16px;
   line-height: 1.9;
   color: #FFFFFF;
+}
+.footer .footer-right {
+  width: 100%;
+  height: 815px;
+  position: relative;
+}
+.footer .footer-container-right {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer .footer-container-right .footer-right-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.footer .footer-container-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 15px 100px;
+  z-index: 1;
+}
+.footer .footer-contact {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.9;
+  color: #191D2D;
+  transition: ease-in-out 500ms;
+  cursor: pointer;
+}
+.footer .footer-contact:hover {
+  transform: scaleZ(1);
+  color: #E15241;
+}
+.footer .footer-number {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.9;
+  color: #191D2D;
+  transition: ease-in-out 500ms;
+  cursor: pointer;
+}
+.footer .footer-number:hover {
+  transform: scaleZ(1);
+  color: #E15241;
+}
+.footer .footer-address,
+.footer .footer-mail {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.28;
+  color: #191D2D;
+}
+.footer .orderfreecall {
+  width: 265px;
+  height: 59px;
+  background-color: #E15241;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 30px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  transition: ease-in-out 500ms;
+  cursor: pointer;
+}
+.footer .orderfreecall:hover {
+  transform: scale(1.05);
+}
+.footer .footer-container-imgs {
+  display: flex;
+}
+.footer .footer-1img {
+  width: 201px;
+  height: 30.1px;
+}
+.footer .footer-2img {
+  width: 81.74px;
+  height: 64.65px;
 }
 
 /*# sourceMappingURL=styles.css.map */
