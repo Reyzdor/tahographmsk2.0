@@ -1950,23 +1950,63 @@ body {
   gap: 50px;
 }
 
-footer {
+.footer {
   width: 100%;
   height: 815px;
   background-color: #FFFFFF;
 }
-footer__container {
+.footer__container {
+  width: 100%;
+  height: 815px;
   display: flex;
-  width: 100%;
+}
+.footer__left {
+  width: 60%;
   height: 815px;
-}
-footer__left-part {
-  width: 50%;
   background-color: #191D2D;
+  display: flex;
+  align-items: flex-start;
 }
-footer__right-part {
-  width: 50%;
-  background-color: #FFFFFF;
+.footer__tah {
+  font-size: 40px;
+  color: #FFFFFF;
+  padding: 40px;
+  margin: 0;
+}
+.footer__right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.footer .taho-block {
+  padding: 80px 250px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 50px;
+}
+.footer .taho-block .tahographimg {
+  width: 47.04px;
+  height: 47.04px;
+}
+.footer .taho-block .taho-block-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer .taho-block .taho-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.footer .taho-block .taho-small-title {
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+  line-height: 1;
+  margin-left: 2px;
 }
 
 /*# sourceMappingURL=styles.css.map */
