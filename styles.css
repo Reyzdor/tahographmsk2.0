@@ -1979,7 +1979,7 @@ body {
   justify-content: center;
 }
 .footer .taho-block {
-  padding: 80px 250px;
+  padding: 0px 150px;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -1988,6 +1988,8 @@ body {
 .footer .taho-block .tahographimg {
   width: 47.04px;
   height: 47.04px;
+  position: relative;
+  top: -255px;
 }
 .footer .taho-block .taho-block-2 {
   display: flex;
@@ -2007,6 +2009,81 @@ body {
   color: white;
   line-height: 1;
   margin-left: 2px;
+  margin-bottom: 50px;
+}
+.footer .taho-block .footer-big-container {
+  position: relative;
+  margin-right: 100px;
+  margin-top: -30px;
+}
+.footer .taho-block .footer-big-container .footer-container-span {
+  margin-bottom: 20px;
+}
+.footer .taho-block .footer-big-container .footer-spantext11 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #FFFFFF;
+}
+.footer .taho-block .footer-big-container .footer-textgeo {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #FFFFFF;
+}
+.footer .footer-spantext11 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #FFFFFF;
+}
+.footer .footer-textgeo {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #FFFFFF;
+}
+.footer .footer-container-big-two {
+  position: relative;
+  margin-top: 190px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+}
+.footer .footer-container-big-two .footer-span2 {
+  margin-bottom: 20px;
+}
+.footer .footer-container-big-two .footer-spantext2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #FFFFFF;
+}
+.footer .footer-container-big-two .footer-text-shop {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.footer .footer-container-big-three {
+  position: relative;
+  top: 0px;
+  margin-right: 100px;
+}
+.footer .footer-container-big-three .footer-span3 {
+  margin-bottom: 20px;
+}
+.footer .footer-container-big-three .footer-spantext3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #FFFFFF;
+}
+.footer .footer-container-big-three .footer-text-price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=styles.css.map */
